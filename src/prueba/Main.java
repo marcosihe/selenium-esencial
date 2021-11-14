@@ -40,5 +40,9 @@ public class Main {
         // Changes Detector
         ChangesDetector cd = new ChangesDetector();
         cd.executeJavascriptCode(driver);
+
+        // Screenshots
+        Screenshot src = new Screenshot();
+        src.takeScreenshot(driver);
     }
 }
