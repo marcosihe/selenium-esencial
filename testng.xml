@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Cursos/Globant/pruebaIntellij1/src">
+        <classes>
+            <class name="com.pruebaseleniumcontestng.Prueba">
+                <methods>
+                    <include name="initialTest"/>
+                    <include name="initialTestUno"/>
+                    <include name="initialTestDos"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
